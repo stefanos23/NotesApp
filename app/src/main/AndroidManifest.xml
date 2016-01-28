@@ -20,6 +20,12 @@
             android:name=".NoteActivity"
             android:label="@string/title_activity_note" >
         </activity>
+
+        <service
+            android:name=".WordCountService"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
     </application>
 
 </manifest>
