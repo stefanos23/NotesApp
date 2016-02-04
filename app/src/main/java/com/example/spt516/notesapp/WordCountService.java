@@ -65,7 +65,7 @@ public class WordCountService extends Service {
         //String temp[] = (String[])intent.getExtras().get("text");
 
 
-
+        String las = "asd";
         int count=0;
         for(String a:temp){
 
